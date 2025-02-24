@@ -1,0 +1,23 @@
+# Core Packages
+openai==1.10.0
+streamlit==1.30.0
+python-dotenv==1.0.0
+
+# Code Parsing and Linting
+astor==0.8.1      # For AST-based refactoring
+black==24.2.0     # Code formatting
+autopep8==2.0.4   # PEP8 compliance
+flake8==7.0.0     # Linting
+
+# Jupyter (if testing in notebooks)
+notebook==7.0.6
+ipykernel==6.29.2
+
+# Utility Libraries
+requests==2.31.0   # API calls
+rich==13.7.0       # Colorful CLI output
+tqdm==4.66.2       # Progress bars
+
+# Environment & Security
+certifi==2024.2.2
+pyyaml==6.0.1
