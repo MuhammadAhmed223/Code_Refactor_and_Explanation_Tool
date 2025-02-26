@@ -2,6 +2,19 @@
     
     A simple **Streamlit-based** tool that refactors and explains Python code using AI.
 
+## 📂 Project Structure
+```
+Code-Refactor-Tool/
+│-- api_key.py
+│-- .env
+│-- explain.py
+│-- refactor.py
+│-- requirements.txt
+│-- .gitignore
+│-- main.py
+│-- README.md
+```
+
 ## 📌 Features
 
     ✅ Refactors Python code for better readability   
@@ -32,6 +45,22 @@ RAG_KEY=your_api_key_here
 streamlit run main.py
 ```
 
+## 🤖 Future Enhancements
+    - Add support for multiple programming languages.
+    - Improve AI model integration with more functionalities.
+
+## 📤 Deploying to GitHub
+    To push the project to GitHub, run the following commands:
+```sh
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/MuhammadAhmed223/Code-Refactor-Tool.git
+git push -u origin main
+```
+
+
 ## 📝 Usage
     - Enter Python code in the input box  
     - Click **"Refactor"** to improve the code  
@@ -42,4 +71,12 @@ streamlit run main.py
 
 ## 📄 License
     This project is open-source under the MIT License.
+
+
+
+
+
+
+
+    Happy Coding! 🎉
 
